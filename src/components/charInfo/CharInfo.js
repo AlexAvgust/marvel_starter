@@ -1,38 +1,29 @@
+import useMarvelService from '../../services/MarvelService';
 import { useState,useEffect } from 'react';
 import PropTypes from 'prop-types';
-import useMarvelService from '../../services/MarvelService';
 import Spinner from '../spinner/Spinner';
 import ErrorMessage from '../errorMessage/ErrorMessage';
 import Skeleton from '../skeleton/Skeleton'
 import './charInfo.scss';
+import { Link } from 'react-router-dom';
 
 
 const CharInfo = (props) => {
     const [char, setChar] = useState(null)
 
-    const {loading,error,getCharacter,cleanError} = useMarvelService()
+    const {loading,error,getCharacter,clearError} = useMarvelService()
 
     useEffect(() => {
         updateChar()
     },[props.charId])
 
 
-    // componentDidMount() {
-    //     this.updateChar()
-    // }
-
-    // componentDidUpdate(prevProps) {
-    //     if (this.props.charId !== prevProps.charId) {
-    //         this.updateChar()
-    //     }
-    // }
-
     const updateChar = () => {
         const { charId } = props
         if (!charId) {
             return
         }
-        cleanError()
+        clearError()
             getCharacter(charId)
             .then(onCharLoaded)    
     }
@@ -87,10 +78,11 @@ const View = ({char}) => {
                 {
 
                     (comics.length > 0) ? comics.slice().splice(10, comics.length).map((el, i) => {
+                        let comicId = comics[i].resourceURI.slice(-5).replace(/\D/,'')
                         return (
-                            <li key={i} className="char__comics-item">
+                            <Link to={`/comics/${comicId}`} key={i} className="char__comics-item">
                                 {el.name}
-                            </li>
+                            </Link>
                         )
                     }) : 'There is no comics with this character'
                 }
