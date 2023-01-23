@@ -43,6 +43,7 @@ const CharInfo = (props) => {
                 {errorMessage}
                 {spinner}
                 {content}
+         
             </div>
         )
     }
@@ -91,6 +92,7 @@ const View = ({char}) => {
 
 
             </ul>
+            
         </>
     )
 }
