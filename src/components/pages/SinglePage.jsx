@@ -4,7 +4,7 @@ import './singleComic.scss'
 import useMarvelService from '../../services/MarvelService';
 import ErrorMessage from '../errorMessage/ErrorMessage';
 import Spinner from '../spinner/Spinner';
-
+import { Helmet } from 'react-helmet';
 const SingleComicPage = (props) => {
     const { type } = props
     console.log(type)
@@ -39,6 +39,7 @@ const SingleComicPage = (props) => {
     const content = !(loading || error || !item) ? <View props={item} type={type} /> : null;
     return (
         <div className="single-comic">
+             
             {errorMessage}
             {spinner}
             {content}
@@ -50,11 +51,16 @@ const SingleComicPage = (props) => {
 
 
 const View = ({ props ,type  }) => {
-    console.log(type)
+
     const { title, name,description, homepage, pageCount, thumbnail, language, price } = props;
 
     return (
         <div className="single-comic">
+               <Helmet>
+            <meta name="description" 
+            content="Page with our comics"/>
+            <title>{type === 'comic' ? title : name}</title>
+        </Helmet>
             <img src={thumbnail} alt={title} className="single-comic__img" />
             <div className="single-comic__info">
                 <h2 className="single-comic__name">{title ? title : name}</h2>
