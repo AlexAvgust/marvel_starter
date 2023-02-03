@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/AlexAvgust/marvel_starter/static/css/main.ed3d3345.css",
+    "main.js": "/AlexAvgust/marvel_starter/static/js/main.199e9630.js",
+    "static/js/432.873fe302.chunk.js": "/AlexAvgust/marvel_starter/static/js/432.873fe302.chunk.js",
+    "static/css/742.e61027b6.chunk.css": "/AlexAvgust/marvel_starter/static/css/742.e61027b6.chunk.css",
+    "static/js/742.ab0323fb.chunk.js": "/AlexAvgust/marvel_starter/static/js/742.ab0323fb.chunk.js",
+    "static/css/955.eff5a5e4.chunk.css": "/AlexAvgust/marvel_starter/static/css/955.eff5a5e4.chunk.css",
+    "static/js/955.ec2d1d45.chunk.js": "/AlexAvgust/marvel_starter/static/js/955.ec2d1d45.chunk.js",
+    "static/css/982.c4e9c3c0.chunk.css": "/AlexAvgust/marvel_starter/static/css/982.c4e9c3c0.chunk.css",
+    "static/js/982.652870db.chunk.js": "/AlexAvgust/marvel_starter/static/js/982.652870db.chunk.js",
+    "static/js/353.160cb0e1.chunk.js": "/AlexAvgust/marvel_starter/static/js/353.160cb0e1.chunk.js",
+    "static/js/694.da25b9bb.chunk.js": "/AlexAvgust/marvel_starter/static/js/694.da25b9bb.chunk.js",
+    "static/media/vision.png": "/AlexAvgust/marvel_starter/static/media/vision.067d4ae1936d64a577ce.png",
+    "static/media/mjolnir.png": "/AlexAvgust/marvel_starter/static/media/mjolnir.61f31e1809f12183a524.png",
+    "static/media/Avengers.png": "/AlexAvgust/marvel_starter/static/media/Avengers.4065c8f9c94e3d8b039a.png",
+    "static/media/error.gif": "/AlexAvgust/marvel_starter/static/media/error.42292aa12b6bc303ce99.gif",
+    "static/media/Avengers_logo.png": "/AlexAvgust/marvel_starter/static/media/Avengers_logo.9eaf219344d83362e830.png",
+    "index.html": "/AlexAvgust/marvel_starter/index.html",
+    "main.ed3d3345.css.map": "/AlexAvgust/marvel_starter/static/css/main.ed3d3345.css.map",
+    "main.199e9630.js.map": "/AlexAvgust/marvel_starter/static/js/main.199e9630.js.map",
+    "432.873fe302.chunk.js.map": "/AlexAvgust/marvel_starter/static/js/432.873fe302.chunk.js.map",
+    "742.e61027b6.chunk.css.map": "/AlexAvgust/marvel_starter/static/css/742.e61027b6.chunk.css.map",
+    "742.ab0323fb.chunk.js.map": "/AlexAvgust/marvel_starter/static/js/742.ab0323fb.chunk.js.map",
+    "955.eff5a5e4.chunk.css.map": "/AlexAvgust/marvel_starter/static/css/955.eff5a5e4.chunk.css.map",
+    "955.ec2d1d45.chunk.js.map": "/AlexAvgust/marvel_starter/static/js/955.ec2d1d45.chunk.js.map",
+    "982.c4e9c3c0.chunk.css.map": "/AlexAvgust/marvel_starter/static/css/982.c4e9c3c0.chunk.css.map",
+    "982.652870db.chunk.js.map": "/AlexAvgust/marvel_starter/static/js/982.652870db.chunk.js.map",
+    "353.160cb0e1.chunk.js.map": "/AlexAvgust/marvel_starter/static/js/353.160cb0e1.chunk.js.map",
+    "694.da25b9bb.chunk.js.map": "/AlexAvgust/marvel_starter/static/js/694.da25b9bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed3d3345.css",
+    "static/js/main.199e9630.js"
+  ]
+}
