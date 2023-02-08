@@ -12,7 +12,6 @@ const FindChar = () => {
   const [char, setChar] = useState(null)
   const { loading, error, getCharacterByName, clearError } = useMarvelService()
 
-console.log(char)
   const onCharLoaded = (char) => {
     setChar(char)
   }
@@ -35,6 +34,7 @@ console.log(char)
     </div> 
 
   return (
+ 
     <div  className="char__search-form">
       <Formik initialValues={{
         name: ''
@@ -63,6 +63,7 @@ console.log(char)
       {result}
       {errorMessage}
     </div>
+  
   )
 }
 
